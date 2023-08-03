@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <!-- <h1>Welcome to <%= title %></h1> -->
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Term</th>
+        <th>Definition</th>
+        <th>Reference</th>
+      </tr>
+      <% Glossary.forEach((Glossary) => { %>
+          <tr>
+            <td>
+              <%= Glossary.ID %>
+            </td>
+            <td>
+              <%= Glossary.Term %>
+            </td>
+            <td>
+              <%= Glossary.Definition %>
+            </td>
+            <td id="reference">
+              <a>
+              <%= Glossary.Reference %>
+              </a>
+            </td>
+          </tr>
+      <%}); %>
+    </table>
+  </body>
+</html>

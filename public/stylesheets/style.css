@@ -1,0 +1,47 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+html{
+  background-color: black;
+  text-align: center;
+}
+h1 {
+  color: grey;
+}
+a {
+  color: #001b87a2;
+}
+table {
+  width: 100%;
+  padding: 25px;
+  background-color: rgb(98, 98, 98);
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+}
+
+th {
+  height: 70px;
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+  text-transform: capitalize;
+  font-size: medium;
+}
+td {
+  text-align: center;
+  padding: 30px;
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+}
+tr:hover {background-color: rgb(180, 189, 200);}
+
+tr{
+  padding: 30px;
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+}
+#reference{
+  font-display: inherit;
+  max-width: 200px;
+  word-wrap: break-word;
+}
